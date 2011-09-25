@@ -1,0 +1,11 @@
+CRC is a package for calculating the CRC value. The following polynomials are supported:
+
+- CRC CCITT : X^16 + X^12 + X^5 + 1
+
+- CRC_16 :X^16 + X^15 + X^2 + 1
+
+- CRC_32 : X^32 + X^26 + X^23 + X^22 + X^16 + X^12 + X^11 + X^10 + X^8 + X^7 + X^5 + X^4 + X^2 + X + 1
+
+Usage: 
+       Call Calculate_Crc with a byte buffer containing the sequence which the CRC value need to be calculated 
+       for. Give the CRC polynomial used in Generate_Table as second argument.  
